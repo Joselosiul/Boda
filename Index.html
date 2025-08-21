@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación Boda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdf6f0;
+      text-align: center;
+      padding: 20px;
+    }
+    video {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    .btn {
+      display: block;
+      margin: 15px auto;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+      text-decoration: none;
+      width: 250px;
+    }
+    .confirm {
+      background-color: #d17b88;
+    }
+    .location {
+      background-color: #6c9f97;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ ¡Estás cordialmente invitado a nuestra boda! ✨</h1>
+
+  <!-- Video de invitación -->
+  <video controls autoplay muted loop>
+    <source src="video-boda.mp4" type="video/mp4">
+    Tu navegador no soporta videos.
+  </video>
+
+  <h2>23 de Octubre de 2025</h2>
+  <h3>Florida Norte - Guayaquil</h3>
+
+  <!-- Botón de confirmación -->
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHyd_18yXV1HDaCS-0fkgaS0-UwZFHn-j5jsgPOp9oxY025A/viewform" 
+     class="btn confirm" target="_blank">✅ Confirmar asistencia</a>
+
+  <!-- Botón de ubicación -->
+  <a href="https://maps.app.goo.gl/MYEKGGXUTU5wckkw8" 
+     class="btn location" target="_blank">📍 Ver ubicación</a>
+</body>
+</html>
